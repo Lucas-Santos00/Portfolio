@@ -1,9 +1,9 @@
+import Menu from "@/components/menu/Menu";
+import Header from "@/components/header/Header";
+
 export default function Home() {
   return (<>
-    <div>
-      saad
-    </div>
-    <div>dads</div>
-    <div></div>
+    <Menu />
+    <Header/>
   </>);
 }
