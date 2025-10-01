@@ -2,6 +2,7 @@
 @import "tailwindcss";
 
 body {
+  overflow-x: hidden;
   background: #08090B;
   color: #E3E5EB;
   font-family: "Work Sans", sans-serif;
@@ -13,3 +14,13 @@ body {
 h1, h2 {
   font-family: "Inconsolata", monospace;
 }
+
+.marquee { --marquee-speed: 40s; overflow:hidden; }
+.marquee-track { display:flex; align-items:center; width:max-content; }
+.marquee-group { display:flex; gap:2.5rem; } /* seus itens */
+@keyframes marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); } /* -50% do próprio track (duplicado) */
+}
+.marquee-track { animation: marquee var(--marquee-speed) linear infinite; }
+.marquee-track:hover { animation-play-state: paused;} /* pausa ao passar mouse */
