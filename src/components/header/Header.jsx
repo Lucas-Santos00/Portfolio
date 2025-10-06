@@ -5,14 +5,14 @@ import Technologies from "../technologies/Technologies";
 const Header = () => {
     return(
         <>
-            <header className="w-full flex flex-col items-center min-h-lvh justify-center p-4 pt-14 gap-6 relative max-w-[1920px]">
+            <header className="w-full flex flex-col items-center min-h-lvh justify-center p-4 px-[18px] pt-14 gap-6 relative max-w-[1920px]">
                 <div className="bg-[url('/background-mobile.webp')] bg-center lg:bg-[url('/background-right.webp')] absolute top-0 left-0 w-full h-full lg:bg-right -z-10 bg-no-repeat"></div>
                 <div className="lg:bg-[url('/bakcground-left.webp')] absolute top-0 left-0 w-full h-full bg-left -z-10 bg-no-repeat"></div>
                 <Image src="/myPhoto.png" sizes="(max-width: 768px) 140px, 320px" className="object-cover rounded-full" width={140} height={140} alt="Lucas Santos Photo" />
-                <h1 className="text-[20] text-center sm:text-3xl font-medium">Lucas Santos - <span className="text-orange-500">FullStack Developer</span></h1>
-                <p className="w-full sm:text-3xl text-center font-light text-gray-400 max-w-[680px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac libero at erat feugiat tincidunt . Integer convallis, felis at pretium volutpat, est ligula volutpat ex, eget tincidunt magna lorem ut magna</p>
-                <div className="w-full flex flex-row justify-between max-w-[600px]">
-                    <div className="flex flex-col justify-start text-xs sm:text-lg text-gray-400 gap-1">
+                <h1 className="text-[22px] sm:text-[28px] text-center font-medium">Lucas Santos - <span className="text-orange-500">FullStack Developer</span></h1>
+                <p className="w-full text-[20px] lg:text-[28px] text-center font-light text-gray-400 max-w-[680px]">Sou Lucas, desenvolvedor e empreendedor de Santa Catarina. Aos 25 anos, foco na criação de produtos digitais e soluções SaaS com código limpo, arquitetura sólida e propósito real. Uno visão estratégica e domínio técnico para transformar ideias em sistemas escaláveis.</p>
+                <div className="w-full flex flex-row justify-between max-w-[600px] px-[8px] sm:px-[32px]">
+                    <div className="flex flex-col justify-start text- sm:text-lg text-gray-400 gap-1">
                         <p><a href="mailto:contato@lucass.io">contato@lucass.io</a></p>
                         <p><a href="#">+55 (47) 98823-0826</a></p>
 
