@@ -8,7 +8,7 @@ const Header = () => {
             <header className="w-full flex flex-col items-center min-h-lvh justify-center p-4 px-[18px] pt-14 gap-6 relative max-w-[1920px]">
                 <div className="bg-[url('/background-mobile.webp')] bg-center lg:bg-[url('/background-right.webp')] absolute top-0 left-0 w-full h-full lg:bg-right -z-10 bg-no-repeat"></div>
                 <div className="lg:bg-[url('/bakcground-left.webp')] absolute top-0 left-0 w-full h-full bg-left -z-10 bg-no-repeat"></div>
-                <Image src="/myPhoto.png" sizes="(max-width: 768px) 140px, 320px" className="object-cover rounded-full" width={140} height={140} alt="Lucas Santos Photo" />
+                <img src="/myPhoto.png" className="w-[160px] md:w-[240px] object-cover rounded-full" alt="Lucas Santos Photo" />
                 <h1 className="text-[22px] sm:text-[28px] text-center font-medium">Lucas Santos - <span className="text-orange-500">FullStack Developer</span></h1>
                 <p className="w-full text-[20px] lg:text-[28px] text-center font-light text-gray-400 max-w-[680px]">Sou Lucas, desenvolvedor e empreendedor de Santa Catarina. Aos 25 anos, foco na criação de produtos digitais e soluções SaaS com código limpo, arquitetura sólida e propósito real. Uno visão estratégica e domínio técnico para transformar ideias em sistemas escaláveis.</p>
                 <div className="w-full flex flex-row justify-between max-w-[600px] px-[8px] sm:px-[32px]">

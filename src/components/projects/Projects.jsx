@@ -3,8 +3,8 @@ import ProjectCard from "../projectCard/ProjectCard";
 const Projects = () => {
     return (
     <>
-        <section className="flex flex-col items-center w-full min-h-lvh mt-12 p-4 pt-14 gap-6 relative max-w-[1920px]">
-            <h2 className="text-3xl mb-4 font-semibold">Projects Section</h2>
+        <section id="projects" className="flex flex-col items-center w-full min-h-lvh mt-12 p-4 pt-14 gap-6 relative max-w-[1920px]">
+            <h2 className="text-3xl mb-4 font-semibold">Projects</h2>
 
             <div className="flex flex-col justify-center gap-12">
                 <ProjectCard title="HeicTo" description="Conversor de arquivos .heic para arquivo JPG/HEIC. Tudo rodando no front." imageUrl="/heicTo.webp" tags={[{ label: "CSS", color: "#00005F" }, { label: "Next.js", color: "#000" }]} projectUrl="https://github.com/Lucas-Santos00/heicto?tab=readme-ov-file" />

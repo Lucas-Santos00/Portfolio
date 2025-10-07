@@ -71,9 +71,9 @@ const Menu = () => {
             {/* Menu mobile overlay */}
             <div className={`fixed inset-0 w-screen h-screen bg-black/90 backdrop-blur-sm z-40 flex items-center justify-center ${isMenuOpen ? 'block' : 'hidden'}`}>
                 <ul className="text-center space-y-8 text-2xl">
-                    <li><a href='#' onClick={toggleMenu}>Portfolio</a></li>
-                    <li><a href='#' onClick={toggleMenu}>Links</a></li>
-                    <li><a href='#' onClick={toggleMenu}>Contact</a></li>
+                    <li><a href='#projects' onClick={toggleMenu}>Portfolio</a></li>
+                    <li><a href='https://lucass.io/my-links' target='_blank' onClick={toggleMenu}>Links</a></li>
+                    <li><a href='#contato' onClick={toggleMenu}>Contact</a></li>
                 </ul>
             </div>
         </>

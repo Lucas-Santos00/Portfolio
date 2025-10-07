@@ -3,11 +3,11 @@ import SocialNetworks from "../social-networks/Social-networks";
 const GetInTouch = () => {
     return (
         <>
-        <section className="flex flex-col items-center w-full mt-12 p-4 pt-14 gap-6 relative max-w-[1920px]">
+        <section id="contato" className="flex flex-col items-center w-full mt-12 pt-14 gap-6 relative max-w-[1920px]">
             
-            <h2 className="text-[48px] md:text-[78px] font-extrabold"><span className="font-light">Get</span> In Touch</h2>
+            <h2 className="text-[38px] md:text-[78px] font-extrabold text-center"><span className="font-light">Get</span> In Touch</h2>
 
-            <div className="flex flex-row gap-8">
+            <div className="flex flex-row gap-8 p-4">
                 <SocialNetworks classname={"w-[52] h-[52]"}/>
             </div>
 
